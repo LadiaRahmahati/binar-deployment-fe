@@ -54,7 +54,7 @@ export default function Login() {
             };
 
             const loginGoogleRequest = await axios.post(
-                "http://localhost:2000/auth/login-google",
+                "https://binar-instagram-api-clone.herokuapp.com/auth/login-google",
                 userToLoginPayload
             );
 
