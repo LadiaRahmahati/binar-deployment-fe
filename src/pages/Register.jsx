@@ -28,7 +28,7 @@ export default function Register() {
             };
 
             const registerRequest = await axios.post(
-                "https://binar-instagram-api-clone.herokuapp.com//auth/register",
+                "https://binar-instagram-api-clone.herokuapp.com/auth/register",
                 userToRegisterPayload
             );
 
